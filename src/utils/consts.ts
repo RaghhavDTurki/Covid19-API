@@ -1,6 +1,6 @@
 export const DEV_URL = 'http://localhost:4000';
 
-export const PROD_URL = 'https://covid19-graphql.netlify.app/';
+export const PROD_URL = 'https://covid19-api-graphql.herokuapp.com/';
 
 export const DATA_SOURCE_URL = 'https://disease.sh/v3';
 

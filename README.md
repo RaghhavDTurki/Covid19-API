@@ -27,6 +27,7 @@
 
 ## Try it live out on Heroku
 
+https://covid19-api-graphql.herokuapp.com/
 
 
 ## Contributing
