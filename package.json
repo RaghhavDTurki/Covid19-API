@@ -9,7 +9,6 @@
         "start": "node dist/index.js",
         "postinstall": "tsc --p tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist",
         "start:dev": "NODE_ENV=development ts-node-dev -r tsconfig-paths/register src/index.ts",
-        "build": "tsc --p tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./dist",
         "eslint": "eslint . --ext ts,gql --ignore-path .eslintignore",
         "eslint:fix": "eslint --fix . --ext ts,gql --ignore-path .eslintignore",
         "prettier": "prettier \"./**/*.{ts,yml,yaml}\" -l --ignore-path .eslintignore",

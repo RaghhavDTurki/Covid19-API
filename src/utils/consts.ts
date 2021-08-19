@@ -4,6 +4,7 @@ export const PROD_URL = 'https://covid19-api-graphql.herokuapp.com/';
 
 export const DATA_SOURCE_URL = 'https://disease.sh/v3';
 
+export const PORT = +process.env.PORT || 3000;
 
 export const GLOBAL_RATE_LIMIT_CONFIG = {
     window: '1m',
